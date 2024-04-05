@@ -65,19 +65,27 @@ img {
 
 .list li {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .list li .photo {
     width: 360px;
-    height: 200px;
     margin-right: 40px;
 }
 
  .list li .text {
     width: 600px;
-    margin-top: 10px;
+    padding: 10px 0 10px 0;
  }
 
+.list li .text h3 {
+    font-size: 30px;    
+    margin-bottom: 12px;
+}
+
+.list li .text p {
+    font-size: 18px;
+}
  .copyright {
     padding: 50px 0 50px 0;
     text-align: center;
